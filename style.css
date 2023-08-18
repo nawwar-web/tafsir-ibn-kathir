@@ -1,0 +1,177 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 ;
+}
+
+a{
+    color: white;
+    padding: 10px;
+    margin: 20px;
+    text-decoration: none;
+    border: 1px solid white;
+}
+
+a:hover{
+    background-color: rgba(255, 255, 255, 0.407);
+}
+
+/*************************************************************************/
+
+.nav{
+    overflow:hidden;
+}
+
+header{
+    width: auto;
+    height: 575px;
+    color:white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgb(6 35 38)), url("image/fondd.jpg");
+}
+
+.contact {
+    text-decoration: none;
+    color:white;
+    position:absolute;
+    right: 0;
+    margin:0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    border-bottom: 1px solid;
+    border-color: white;
+    padding:20px 30px 20px 100% ;
+}
+
+
+.centre{
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.2;
+    position: relative;
+    top:18%;
+    text-align: center;}
+
+.titre_grand {
+    font-family: 'Inknut Antiqua', serif;
+    font-size: 100px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.phrase{
+    letter-spacing: 0.3em;
+    margin-bottom: 30px;
+    overflow: hidden;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.boutton{
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+
+/**************************************************************************/
+
+.barre_lien{
+    overflow:hidden;
+    width: auto;
+    height: 250px;
+    color:white;
+    background-color: #062326;
+}
+
+.juz_lien{
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+
+.jl:hover{
+    border-color:#916a44;
+    background-color: #062326;
+}
+
+.liste_sourate{
+    overflow:hidden;
+    color:white;
+    background-color: #111517;
+}
+
+.V{
+    border: 1px solid rgb(255, 255, 255);
+    width: 275px;
+    height: 133px;
+    margin:20px 10px 20px;
+}
+
+.V:hover{
+    background-color: #111517ac;
+}
+
+
+.souwar{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.titre_2 {
+    border-bottom: 1px solid white ;
+    border-top: 5px solid white ;
+    margin:0 auto 10px 0px;
+    font-size: 50px;
+    font-family: 'Inknut Antiqua', serif;
+}
+
+.lien_sourate{
+    font-family: 'Open Sans', sans-serif;
+    margin: 84px;
+
+}
+
+.nom_sourate{
+    margin-top: 0;
+}
+
+/*dans la les carre*/
+
+h3{
+    font-family: 'Inknut Antiqua', serif;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 21px;
+    border-bottom: 2px solid white;
+}
+
+/**************************************************************************/
+
+.footer{
+    overflow:hidden;
+    color: white;
+    text-align: center;
+    height: 50px;
+    font-family: 'Open Sans', sans-serif;    
+    background: linear-gradient(#111517, rgb(0, 0, 0));
+}
+
+.nawwar{
+    color: white;
+    padding: 1px;
+    margin: 1px;
+    text-decoration: none;
+    border: none;
+
+}
+
+.nawwar:hover{
+    background-color: rgba(0, 0, 0, 0);
+    text-decoration:underline;
+}
+
+/*************************************************************************************/
+
