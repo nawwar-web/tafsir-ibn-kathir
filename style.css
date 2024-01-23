@@ -358,14 +358,14 @@ footer ul li a{
 }
 
 .dot.dot1 {
-    top: 150px; /* 100px from the top */
+    top: 20%; /* 100px from the top */
     left: 100%; /* Start from the right side */
     animation-name: moveLeft;
     filter: drop-shadow(0 0 5rem #ffffff);
 }
 
 .dot.dot2 {
-    bottom: 150px; /* 100px from the bottom */
+    bottom: 17%; /* 100px from the bottom */
     left: 0; /* Start from the left side */
     animation-name: moveRight;
 }
