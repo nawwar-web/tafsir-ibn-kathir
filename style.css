@@ -13,6 +13,7 @@ header{
     background-image:linear-gradient(#000000b0,#000000b0), url("image/fond_head.jpg");
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     height: 70vh;
     display: flex;
     align-items: center;
